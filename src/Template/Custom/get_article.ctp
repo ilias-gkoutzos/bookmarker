@@ -1,7 +1,7 @@
 <?php
 
 $this->Breadcrumbs->add([
-    ['title' => 'Articles'],
+    ['title' => 'Articles!'],
     ['title' => $article->title]
 ]);
 
