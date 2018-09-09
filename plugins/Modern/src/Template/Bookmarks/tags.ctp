@@ -15,6 +15,7 @@
 <p>
 <?php if ($this->request->is("get")){
             echo "GET REQUEST!";
+            echo "OK!";
         }   
 
     if ($value = $this->request->env("HTTP_HOST")){
